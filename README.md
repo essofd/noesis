@@ -37,15 +37,15 @@ Parametros ID_DO_FILME: tt1285016 API_KEY= 52ec71bf
 ID_DO_FILME e API_KEY deverão ser passados por variáveis GLOBAIS
 1. No endpoint validar o response para:
 
-  • Título do Filme
+    • Título do Filme
 
-  • Ano do Filme
+    • Ano do Filme
 
-  • Idioma do filme
+    • Idioma do filme
 
 2.  No endpoint validar o response para:
 
-  • Busca filme inexistente sua linguagem ou ferramenta de preferência.
+    • Busca filme inexistente sua linguagem ou ferramenta de preferência.
 
   Após fazê-los, gerar um relatório de falhas e estatística de falhas/acerto.
 
