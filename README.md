@@ -106,7 +106,7 @@ Regras
  3. Vá até o caminho aonde esta a solução do projeto e digite: "mvn clean test"
  4. Espere o teste ser executado e confira o resultado;
 
- **Executando o script - Passo a Passo via Eclise**
+ **Executando o script - Passo a Passo via Eclipse**
  1. Baixe o projeto e descompacte-o;
  2. Acesse o Eclipse;
  3. Dentro do eclipse clique em "File" e depois em "Open Projects from File System...";
