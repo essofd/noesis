@@ -1,0 +1,10 @@
+#Ignore thumbnails created by Windows
+*.class
+/.metadata/*
+/.metadata/
+/.metadata
+.metadata/
+.plugins/
+metadata/
+metadata/plugins/org.eclipse.m2e.core
+target/
