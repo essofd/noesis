@@ -7,6 +7,11 @@ import org.openqa.selenium.By;
 import br.coop.unimed.core.BasePage;
 
 public class GuiaMedicoPage extends BasePage {
+	
+	public void fecharCookies() {
+		
+		clicarBotao("closeModalLGPD");
+	}
 
 	public void informarEspecialidade() {
 		aguardarPorElemento(By.id("titulo_o_que_voce_procura"));
@@ -25,13 +30,13 @@ public class GuiaMedicoPage extends BasePage {
 				"*//form/div/div[@class='s-field control-group selecione-rede big-field pesquisa-avancada']/div/div/div[@class='css-1wy0on6']"));
 		
 		//pausa
-		pausar(2000);
+		//pausar(2000);
 		
 		//clica no Estado do Rio de Janeiro
 		clicarElemento(By.id("react-select-2-option-18"));
 		
 		//pausa
-		pausar(3000);
+		//pausar(3000);
 	}
 
 	public void selecionarCidade() throws InterruptedException {
@@ -41,20 +46,20 @@ public class GuiaMedicoPage extends BasePage {
 				"*//form/div/div[@class='s-field control-group selecione-plano big-field pesquisa-avancada']/div/div/div[@class='css-1wy0on6']"));
 		
 		//pausa
-		pausar(3000);
+		//pausar(3000);
 		
 		//clica na cidade do Rio de Janeiro
 		clicarElemento(By.id("react-select-3-option-67"));
 		
 		//pausa
-		pausar(3000);
+		//pausar(3000);
 
 	}
 
 	public void selecionarRegiao() throws InterruptedException {
 		//clicarElemento(By.xpath("*//form/label/div/input[@value='37']"));
 		clicarElemento(By.xpath("*//div[contains(text(),'UNIMED RIO')]/../div/input"));
-		pausar(2000);
+		//pausar(2000);
 	}
 
 	public void clicarContinuar() {

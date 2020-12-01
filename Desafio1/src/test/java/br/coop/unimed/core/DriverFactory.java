@@ -27,9 +27,11 @@ public class DriverFactory {
 		
 		switch (Propriedades.browser) {
 			case FIREFOX: driver = new FirefoxDriver(); break;
-			case CHROME: driver = new ChromeDriver(); break;
+			case CHROME: driver = new ChromeDriver();
+						driver.manage().window().maximize();		
+						break;
 		}
-		driver.manage().window().maximize();	
+		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		return driver;
 	}

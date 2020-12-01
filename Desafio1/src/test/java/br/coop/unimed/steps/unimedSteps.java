@@ -33,6 +33,7 @@ public class unimedSteps {
 	@Quando("realizo a pesquisa de medicos do Rio de Janeiro")
 	public void realizo_a_pesquisa_de_medicos_do_Rio_de_Janeiro()  throws InterruptedException {
 
+		guia.fecharCookies();
 		guia.informarEspecialidade();
 		guia.clicarPesquisar();
 		guia.selecionarEstado();

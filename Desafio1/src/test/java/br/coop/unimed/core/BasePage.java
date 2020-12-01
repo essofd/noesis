@@ -182,6 +182,7 @@ public class BasePage {
 	/********* Botao ************/
 
 	public void clicarBotao(By by) {
+		aguardarPorElemento(by);
 		getDriver().findElement(by).click();
 	}
 
