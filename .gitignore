@@ -6,5 +6,6 @@
 .metadata/
 .plugins/
 metadata/
-metadata/plugins/org.eclipse.m2e.core
+metadata/plugins/org.eclipse.m2e.core/*
 target/
+.metadata/.plugins/*

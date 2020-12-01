@@ -12,29 +12,42 @@ Maven: [Maven](https://maven.apache.org/download.cgi)
 Criar um projeto de automação utilizando BDD e em linguagem de programação de sua preferência
 os cenários para as duas funcionalidades abaixo:
 1. No site https://www.unimed.coop.br/ validar a seguinte sequência de ações:
-• Acessar Guia Médico
-• Realizar uma pesquisa de médicos no Rio de Janeiro.
-• Validar a apresentação dos resultados com a Especialidade e Cidade
+
+    • Acessar Guia Médico
+
+    • Realizar uma pesquisa de médicos no Rio de Janeiro.
+
+    • Validar a apresentação dos resultados com a Especialidade e Cidade
 2. No mesmo site, validar:
-• Acessar Guia Médico
-• Realizar uma pesquisa de médicos no Rio de Janeiro.
-• Validar nas páginas 1, 2, e 3 do resultado, NÃO apresentação do resultado com cidade São Paulo
+
+    • Acessar Guia Médico
+
+    • Realizar uma pesquisa de médicos no Rio de Janeiro.
+
+    • Validar nas páginas 1, 2, e 3 do resultado, NÃO apresentação do resultado com cidade São Paulo
 
 **Desafio 2**
 Fazer os testes automatizados para este serviço, considerando todas as regras de negócio
 descritas acima. Criá-los Desafio 2
 Criar um projeto de automação para API utilizando framework de sua preferência os cenários para as
 duas funcionalidades abaixo:
+
 EndPoint http://www.omdbapi.com/?i=[ID_DO_FILME]&apikey=[API_KEY]
 Parametros ID_DO_FILME: tt1285016 API_KEY= 52ec71bf
 ID_DO_FILME e API_KEY deverão ser passados por variáveis GLOBAIS
 1. No endpoint validar o response para:
-• Título do Filme
-• Ano do Filme
-• Idioma do filme
+
+  • Título do Filme
+
+  • Ano do Filme
+
+  • Idioma do filme
+
 2.  No endpoint validar o response para:
-• Busca filme inexistente sua linguagem ou ferramenta de preferência. Após
-fazê-los, gerar um relatório de falhas e estatística de falhas/acerto.
+
+  • Busca filme inexistente sua linguagem ou ferramenta de preferência.
+
+  Após fazê-los, gerar um relatório de falhas e estatística de falhas/acerto.
 
 **Desafio 3**
 Desenvolva uma solução em linguagem de programação de sua preferência para atender aos critérios
@@ -43,15 +56,23 @@ Como lojista
 Quero saber quanto de desconto posso conceder no carrinho
 Para fidelizar um cliente
 Critérios
+
 • Acima de R$ 100 e abaixo de R$ 200 => 10%
+
 • Acima de R$ 200 e abaixo de R$ 300 => 20%
+
 • Acima de R$ 300 e abaixo de R$ 400 => 25%
+
 • Acima de R$ 400 => 30%
+
 • Se existir no carrinho um filme com gênero ação somar + 5% de desconto
 
 Regras
+
 • Criar somente uma classe
+
 • Carrinho será um array de int com ids dos filmes
+
 • Passar sempre valor da compra + id do filme
 
 **Preparação do ambiente - Passo a Passo:**
@@ -96,6 +117,9 @@ Regras
  8. Espere o teste ser executado e confira o resultado;
 
 Casos de testes:
+
  Desafio 1==> "RunnerTest.java"
+
  Desafio 2==> "FilmeTest.java"
+
  Desafio 3==> "LojistaTest.java"
